@@ -1,0 +1,32 @@
+[{
+"direction" : "WestBound",
+"lanes": [
+    {"id" : 0,
+     "phase" : "WBT",
+     "vehicles" : [
+        {"id": 0, "type": "Car", "speed": 80, "intersectionLeft": 1537356125}, 
+        {"id": 1, "type": "Truck", "speed": 45, "intersectionLeft":1537356425}]
+    },
+    {"id" : 1,
+     "phase" : "WBL",
+     "vehicles" : [
+        {"id": 2, "type": "Car", "speed": 80, "intersectionLeft": 1537356325}, 
+        {"id": 3, "type": "Truck", "speed": 45, "intersectionLeft": 1537356325}]
+    }]
+},
+{
+"direction" : "EastBound",
+"lanes": [
+    {"id" : 2,
+     "phase" : "EBT",
+     "vehicles" : [
+        {"id": 4, "type": "Car", "speed": 80, "intersectionLeft": 1537356535}, 
+        {"id": 5, "type": "Cycle", "speed": 45, "intersectionLeft": 1537356545}]
+    },
+    {"id" : 3,
+     "phase" : "EBT",
+     "vehicles" : [
+        {"id": 6, "type": "Car", "speed": 80, "intersectionLeft": 1537356525}, 
+        {"id": 7, "type": "Truck", "speed": 45, "intersectionLeft": 1537353525}]
+    }]
+}]
